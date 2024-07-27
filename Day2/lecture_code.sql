@@ -31,7 +31,7 @@ CREATE TABLE learners(
     SelectedCourse INT NOT NULL,
     YearsOfExperience INT NOT NULL,
     LearnerCompany VARCHAR(50),
-    LearnerSOJ VARCHAR(50) NOT NULL,
+   SourceOfJoining VARCHAR(50) NOT NULL,
     BatchStartDate TIMESTAMP NOT NULL,
     Location VARCHAR(50) NOT NULL,
     PRIMARY KEY (LearnerID),
